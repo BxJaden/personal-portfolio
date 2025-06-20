@@ -2,17 +2,16 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
-
+alt = Jaden King
+Jaden King
+Programmer and Web Developer
 Show Contacts
 
 Email
-richard@example.com
+bxjadenofficial@gmail.com
 
 Phone
-+1 (213) 352-2795
+None
 
 Birthday
 June 23, 1982
