@@ -148,9 +148,15 @@ document.querySelectorAll(".project-modal-trigger").forEach(trigger => {
 
     const videos = trigger.querySelectorAll("video");
     videos.forEach(vid => {
-      const clone = vid.cloneNode();
+      const clone = vid.cloneNode(true); // deep clone so <source> tags are included
+      clone.controls = true;             // show video controls
+      clone.autoplay = true;             // auto play
+      clone.muted = true;                // required for autoplay in most browsers
+      clone.playsInline = true;          // for mobile compatibility
       modalImageSlider.appendChild(clone);
+      clone.play();                      // force playback
     });
+
     projectModal.classList.add("active");
   });
 });
