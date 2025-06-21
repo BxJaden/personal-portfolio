@@ -146,6 +146,11 @@ document.querySelectorAll(".project-modal-trigger").forEach(trigger => {
       modalImageSlider.appendChild(clone);
     });
 
+    const videos = trigger.querySelectorAll("video");
+    videos.forEach(vid => {
+      const clone = vid.cloneNode();
+      modalImageSlider.appendChild(clone);
+    });
     projectModal.classList.add("active");
   });
 });
