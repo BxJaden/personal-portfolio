@@ -3,6 +3,7 @@
 Welcome to **my official developer portfolio**, a modern and sleek web showcase for my projects in Discord bots, FiveM scripting, and Roblox development.
 
 > ⚠️ **IMPORTANT:** This portfolio is a personal project. If you clone, fork, or use this repository, **you must replace all personal content, images, names, and branding with your own.** Leaving my personal details on a deployed or public version without permission is a violation of usage rights and could result in legal action.
+> This was originally forked from https://github.com/codewithsadee/vcard-personal-portfolio
 
 ---
 
