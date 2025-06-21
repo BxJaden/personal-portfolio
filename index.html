@@ -348,7 +348,7 @@ Jaden has completed a multitude of tasks of which I asked of him, he has made co
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Notable Communities</h3>
+            <h3 class="h3">Notable Workplaces</h3>
           </div>
 
           <ol class="timeline-list">
@@ -379,12 +379,35 @@ Jaden has completed a multitude of tasks of which I asked of him, he has made co
 
             <li class="timeline-item">
 
+              <h4 class="h4 timeline-item-title">Project Garden State (Discord/FiveM)</h4>
+
+              <span>2024 - 2024</span>
+
+              <p class="timeline-text">
+              I was a regular development member of this community, working on the External Security Bot.
+              </p>
+
+            </li>
+
+               <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ocean Breeze Roleplay (Discord/FiveM)</h4>
+
+              <span>2023 - 2023</span>
+
+              <p class="timeline-text">
+              I was a regular development member of this community, working on the External Security Bot.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
               <h4 class="h4 timeline-item-title">Ohio State Roleplay (ROBLOX)</h4>
 
               <span>2020 - 2021</span>
-              I completed 4 police cars for this game, eventually the game ended up closing.
               <p class="timeline-text">
-                
+              I completed 4 police cars for this game, eventually the game ended up closing.  
               </p>
 
             </li>
@@ -395,9 +418,8 @@ Jaden has completed a multitude of tasks of which I asked of him, he has made co
               <h4 class="h4 timeline-item-title">Jays MM2 (ROBLOX)</h4>
 
               <span>2022 - 2023</span>
-              This was just a MM2 Copy, however I completed brand new Menu UI's and constructed knives for this game.
               <p class="timeline-text">
-                
+                This was just a MM2 Copy, however I completed brand new Menu UI's and constructed knives for this game.
               </p>
 
             </li>
@@ -535,238 +557,178 @@ Jaden has completed a multitude of tasks of which I asked of him, he has made co
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+<article class="portfolio" data-page="portfolio">
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
+  <header>
+    <h2 class="h2 article-title">Portfolio (Click on image)</h2>
+  </header>
 
-        <section class="projects">
+<section class="projects">
+  <ul class="filter-list">
+    <li class="filter-item">
+      <button class="active" data-filter-btn data-origin="original">Original Projects</button>
+    </li>
+  </ul>
 
-          <ul class="filter-list">
+  <div class="filter-select-box">
+    <button class="filter-select" data-select>
+      <div class="select-value" data-selecct-value>Select category</div>
+      <div class="select-icon">
+        <ion-icon name="chevron-down"></ion-icon>
+      </div>
+    </button>
 
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
+    <ul class="select-list">
+      <li class="select-item"><button data-select-item>Discord Bots</button></li>
+      <li class="select-item"><button data-select-item>FiveM Scripts</button></li>
+      <li class="select-item"><button data-select-item>ROBLOX Development</button></li>
+    </ul>
+  </div>
 
-            <li class="filter-item">
-              <button data-filter-btn>Discord Bots</button>
-            </li>
+  <div class="origin-section" data-origin-section="original">
 
-            <li class="filter-item">
-              <button data-filter-btn>FiveM Scripts</button>
-            </li>
+    <div class="category-section" data-category-section="discord bots">
+      <h4 class="h4 article-subtitle">Discord Bots</h4>
 
-            <li class="filter-item">
-              <button data-filter-btn>ROBLOX Development</button>
-            </li>
+      <ul class="project-list">
 
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Discord Bots</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>FiveM Scripts</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>ROBLOX Development</button>
-              </li>
-
-            </ul>
-
+      <li class="project-item active" data-filter-item data-category="discord bots" data-origin="original">
+        <div class="project-modal-trigger" data-project="flash-sentry">
+          <!-- Only show the first image as preview -->
+          <div class="project-img">
+            <img src="./assets/images/flash-sentry-1.png" alt="Flash Sentry 1">
           </div>
+          <h3 class="project-title">Flash Sentry</h3>
+          <p class="project-category">Discord Bots</p>
 
-          <ul class="project-list">
+          <!-- Store other images as hidden, to be used by JS for modal -->
+          <div class="project-images-hidden" style="display: none;">
+            <img src="./assets/images/flash-sentry-2.png" alt="Flash Sentry 2">
+            <img src="./assets/images/flash-sentry-3.png" alt="Flash Sentry 3">
+          </div>
+        </div>
+      </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+        <li class="project-item active" data-filter-item data-category="discord bots" data-origin="original">
+        <div class="project-modal-trigger" data-project="mcp">
+          <!-- Only show the first image as preview -->
+          <div class="project-img">
+            <img src="./assets/images/mcp-logo.jpg" alt="MCP Logo">
+          </div>
+          <h3 class="project-title">Mayor Cherelle Parker</h3>
+          <p class="project-category">Discord Bots</p>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+          <!-- Store other images as hidden, to be used by JS for modal -->
+          <div class="project-images-hidden" style="display: none;">
+            <img src="./assets/images/mcp-1.png" alt="MCP-1">
+            <img src="./assets/images/mcp-2.png" alt="MCP-2">
+          </div>
+        </div>
+      </li>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
+      <li class="project-item active" data-filter-item data-category="discord bots" data-origin="original">
+        <div class="project-modal-trigger" data-project="bsrp">
+          <!-- Only show the first image as preview -->
+          <div class="project-img">
+            <img src="./assets/images/bsrp-logo.png" alt="BaystateRP Logo">
+          </div>
+          <h3 class="project-title">Baystate RP</h3>
+          <p class="project-category">Discord Bots</p>
 
-                <h3 class="project-title">Finance</h3>
+          <!-- Store other images as hidden, to be used by JS for modal -->
+          <div class="project-images-hidden" style="display: none;">
+            <img src="./assets/images/bsrp-1.png" alt="bsrp-1">
+            <img src="./assets/images/bsrp-2.png" alt="bsrp-2">
+            <img src="./assets/images/bsrp-3.png" alt="bsrp-3">
+          </div>
+        </div>
+      </li>
 
-                <p class="project-category">Web development</p>
+ <li class="project-item active" data-filter-item data-category="discord bots" data-origin="original">
+        <div class="project-modal-trigger" data-project="dtech">
+          <!-- Only show the first image as preview -->
+          <div class="project-img">
+            <img src="./assets/images/dtech-logo.png" alt="DTech Logo">
+          </div>
+          <h3 class="project-title">DiscoTech</h3>
+          <p class="project-category">Discord Bots</p>
 
-              </a>
-            </li>
+          <!-- Store other images as hidden, to be used by JS for modal -->
+          <div class="project-images-hidden" style="display: none;">
+            <img src="./assets/images/dtech-1.png" alt="dtech-1">
+            <img src="./assets/images/dtech-2.png" alt="dtech-2">
+            <img src="./assets/images/dtech-3.png" alt="dtech-3">
+            <img src="./assets/images/dtech-4.png" alt="dtech-4">
+            <img src="./assets/images/dtech-5.png" alt="dtech-5">
+          </div>
+        </div>
+      </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+      </ul>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
+      
 
-                <h3 class="project-title">Orizon</h3>
+    </div>
 
-                <p class="project-category">Web development</p>
+    
 
-              </a>
-            </li>
+    <div class="category-section" data-category-section="fivem scripts">
+      <h4 class="h4 article-subtitle">FiveM Scripts</h4>
+      <h3 class="h4 article-subtitle">Reworking</h3>
+      <ul class="project-list">
+      </ul>
+    </div>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
 
-                <h3 class="project-title">Fundo</h3>
+    <div class="category-section" data-category-section="roblox development">
+      <h4 class="h4 article-subtitle">ROBLOX Development</h4>
+      <h3 class="h4 article-subtitle">Reworking</h3>
+      <ul class="project-list">
+      </ul>
+    </div>
+  </div>
 
-                <p class="project-category">Web design</p>
+   <div class="origin-section" data-origin-section="contributed" style="display: none;">
 
-              </a>
-            </li>
+    <div class="category-section" data-category-section="discord bots">
+      <h4 class="h4 article-subtitle">Discord Bots</h4>
+      <ul class="project-list">
+      </ul>
+    </div>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+    <div class="category-section" data-category-section="fivem scripts">
+      <h4 class="h4 article-subtitle">FiveM Scripts</h4>
+      <ul class="project-list">
+      </ul>
+    </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
 
-                <p class="project-category">Applications</p>
+    <div class="category-section" data-category-section="roblox development">
+      <h4 class="h4 article-subtitle">ROBLOX Development</h4>
+      <ul class="project-list">
+      </ul>
+      <h4 class="h4 article-subtitle"> Reworking | Check back soon...</h4>
+    </div>
+  </div>
+</section>
+<div class="modal-container" id="project-modal">
+  <div class="overlay" id="project-overlay"></div>
+  <section class="project-modal-content">
+    <button class="modal-close-btn" id="project-modal-close">
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+    <div id="modal-image-slider"></div>
+  </section>
+</div>
 
-              </a>
-            </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+</article>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-  </main>
 
 
 
@@ -783,6 +745,7 @@ Jaden has completed a multitude of tasks of which I asked of him, he has made co
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
 
 </body>
 

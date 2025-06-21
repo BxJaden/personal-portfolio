@@ -979,6 +979,63 @@ main {
   transition: var(--transition-1);
 }
 
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container.active {
+  display: flex;
+}
+
+.project-modal-content {
+  position: relative;
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+#modal-image-slider {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+#modal-image-slider img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-height: 500px;
+  cursor: pointer;
+}
+
+#project-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #222;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
 .project-item > a:hover img { transform: scale(1.1); }
 
 .project-title,
