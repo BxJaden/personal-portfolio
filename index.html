@@ -822,6 +822,37 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   
+<div class="modal-container" id="welcome-popup" style="display: flex;">
+  <div class="overlay" style="opacity: 0.9; background-color: #000;" id="welcome-overlay"></div>
+  <section class="testimonials-modal" style="max-width: 400px; text-align: center; padding: 2rem;">
+    <h2 class="h2">Welcome to my portfolio</h2>
+    <p class="modal-text" style="margin: 1rem 0;">Take a look around at my work and skills.</p>
+    <button class="form-btn" id="dismiss-popup-btn">Okay, let me browse</button>
+  </section>
+</div>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("welcome-popup");
+    const overlay = document.getElementById("welcome-overlay");
+    const dismissBtn = document.getElementById("dismiss-popup-btn");
+
+    // Show popup on load
+    popup.style.display = "flex";
+
+    // Close on button click
+    dismissBtn.addEventListener("click", function () {
+      popup.style.display = "none";
+    });
+
+    // Optional: close if overlay is clicked
+    overlay.addEventListener("click", function () {
+      popup.style.display = "none";
+    });
+  });
+</script>
+
 
 </body>
 

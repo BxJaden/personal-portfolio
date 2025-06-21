@@ -163,3 +163,12 @@ projectOverlay.addEventListener("click", () => {
   projectModal.classList.remove("active");
 });
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("welcome-popup");
+    const btn = document.getElementById("dismiss-popup-btn");
+
+    btn.addEventListener("click", function () {
+      popup.style.display = "none";
+    });
+  });
+
